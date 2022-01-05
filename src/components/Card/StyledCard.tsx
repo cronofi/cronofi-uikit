@@ -26,7 +26,8 @@ const getBoxShadow = ({ isActive, isSuccess, isWarning, theme }: StyledCardProps
 };
 
 const StyledCard = styled.div<StyledCardProps>`
-  background-color: #14213d;
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
   border: ${({ theme }) => theme.card.boxShadow};
   border-radius: 32px;
   box-shadow: ${getBoxShadow};
