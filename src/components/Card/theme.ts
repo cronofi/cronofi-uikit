@@ -13,7 +13,7 @@ export const light: CardTheme = {
 };
 
 export const dark: CardTheme = {
-  background: darkColors.card,
+  background: "linear-gradient(315deg, #130f40 0%, #000000 74%)",
   boxShadow: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
   boxShadowActive: shadows.active,
   boxShadowSuccess: shadows.success,
