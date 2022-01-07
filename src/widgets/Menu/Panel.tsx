@@ -19,7 +19,7 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   flex-direction: column;
   justify-content: space-between;
   flex-shrink: 0;
-  background-color: #000b18;
+  background-color: #192841;
   /* background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); */
   width: ${({ isPushed }) => (isPushed ? `${SIDEBAR_WIDTH_FULL}px` : 0)};
   height: 100vh;
