@@ -2229,7 +2229,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/cronofi",
+        href: "https://twitter.com/Cronofi_Finance",
     },
 ];
 var MENU_HEIGHT = 64;
