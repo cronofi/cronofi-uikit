@@ -2388,8 +2388,8 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement("a", { href: "https://rugdoc.io/assets/2021/05/rugdoc-review-badge-for-light-bg.png" },
-            React.createElement(Image, { src: "/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugDocReview" })),
+        React.createElement("a", { href: "https://rugdoc.io/project/cronofi/" },
+            React.createElement(Image, { src: "https://cronianswap.com/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugDocReview" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D;
