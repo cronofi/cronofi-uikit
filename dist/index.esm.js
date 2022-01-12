@@ -2389,7 +2389,7 @@ var Panel = function (props) {
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
         React.createElement("a", { href: "https://rugdoc.io/project/cronofi/" },
-            React.createElement(Image, { src: "https://cronianswap.com/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugDocReview" })),
+            React.createElement(Image, { src: "/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugDocReview" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D;
