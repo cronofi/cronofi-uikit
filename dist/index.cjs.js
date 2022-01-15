@@ -2402,6 +2402,8 @@ var Panel = function (props) {
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React__default['default'].createElement(PanelBody, __assign({}, props)),
         React__default['default'].createElement("a", { href: "https://rugdoc.io/project/cronofi/" },
+            React__default['default'].createElement(Image, { src: "/images/rugdoc-liquid.png", width: 370, height: 121, responsive: true, alt: "RugDocLiquidityLocked" })),
+        React__default['default'].createElement("a", { href: "https://rugdoc.io/project/cronofi/" },
             React__default['default'].createElement(Image, { src: "/images/RugDoc.png", width: 370, height: 121, responsive: true, alt: "RugDocReview" })),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));
 };
